@@ -13,44 +13,436 @@
     <link rel="stylesheet" href="./css/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="./css/slick.css" />
     <link rel="stylesheet" href="./css/style.min.css" />
+    <style>
+        .tile-many-lines,
+        .text-many-lines {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+        }
+    </style>
+    <script src="./js/jquery.min.js" defer></script>
+    <script src="./js/slick.min.js" defer></script>
+    <script src="./js/jquery.fancybox.min.js" defer></script>
+    <script src="./js/jquery.maskedinput.min.js" defer></script>
+    <script src="./js/scripts.js" defer></script>
 </head>
 
 <body>
     <!-- wrap -->
     <div class="wrap">
 
+        <!--page-top-box-->
+        <div class="page-top-box">
 
-        <!-- header -->
-        <header class="header">
-            <div class="inner-wrap">
-                44444
+
+            <!-- header -->
+            <header class="header">
+                <div class="inner-wrap">
+                    <div class="logo-wrap">
+                        <a href="" class="logo">
+                            <div class="logo-image">
+                                <img src="./img/main/logo.svg" alt="">
+                            </div>
+                            <div class="logo-title">Hypnosis of clinical and experimental psychology</div>
+                        </a>
+                    </div>
+                    <div class="contacts-wrap">
+                        <div class="phone-wrap">
+                            <a href="tel:89191283768" class="link-phone">+7 919 128 37 68</a>
+                        </div>
+                        <div class="email-wrap">
+                            <a href="mailto:magazine@psychd.ru" class="link-email">magazine@psychd.ru</a>
+                        </div>
+                        <div class="address-wrap">454091, г. Челябинск, ул. Кирова, д. 94, этаж 4, помещение 8</div>
+                    </div>
+                </div>
+            </header>
+            <!-- /header -->
+
+            <!--title-top-box-->
+            <div class="title-top-box">
+                <div class="inner-wrap">
+                    <div class="menu-inner-wrap">
+                        <div class="popup-menu-wrap js-popup-wrap">
+                            <a href="" class="btn-popup btn-action-ico ico-menu js-btn-popup-toggle"></a>
+                            <div class="popup-content-block js-popup-block">
+                                <a href="" class="btn-popup-close btn-action-ico ico-close js-btn-popup-close"></a>
+                                <div class="search-wrap">
+                                    <form action="/" class="frm-main-search">
+                                        <input type="text" class="form-input" placeholder="Поиск по сайту">
+                                        <button type="submit" class="btn-action-ico ico-search"></button>
+                                    </form>
+                                </div>
+                                <div class="menu-wrap">
+                                    <ul class="menu">
+                                        <li><a href="">Главная</a></li>
+                                        <li><a href="">Методические рекомендации</a></li>
+                                        <li><a href="">Рецензирование</a></li>
+                                        <li><a href="">Архив номеров</a></li>
+                                        <li><a href="">Статьи</a></li>
+                                        <li><a href="">Колонка главного редактора</a></li>
+                                        <li><a href="">О журнале</a></li>
+                                    </ul>
+                                </div>
+                                <div class="contacts-wrap">
+                                    <div class="phone-wrap">
+                                        <a href="tel:89191283768" class="link-phone">+7 919 128 37 68</a>
+                                    </div>
+                                    <div class="email-wrap">
+                                        <a href="mailto:magazine@psychd.ru" class="link-email">magazine@psychd.ru</a>
+                                    </div>
+                                    <div class="address-wrap">454091, г. Челябинск, ул. Кирова, д. 94, этаж&nbsp;4, помещение&nbsp;8</div>
+                                </div>
+                                <div class="action-wrap">
+                                    <a href="" class="btn button-border">Подписаться на журнал</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="action-inner-wrap">
+                        <div class="elm-photo">
+                            <img src="./img/top.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
-        </header>
-        <!-- /header -->
+            <!--/title-top-box-->
+
+        </div>
+        <!--/page-top-box-->
 
         <!-- page -->
-        <div class="page">
-            2222
+        <div class="page-full">
+
+            <!--tiles-slider-box-->
+            <div class="tiles-slider-box section-border">
+                <div class="title-box">
+                    <h1 class="h1-title">Номера за 2023 год</h1>
+                </div>
+                <div class="slider-wrap">
+                    <div class="slider-action-wrap">
+                        <a href="" class="btn button-border">Архив номеров</a>
+                    </div>
+                    <div class="slider">
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <div class="item-tile-main">
+                                <a href="" class="tile-link"></a>
+                                <div class="tile-photo-wrap">
+                                    <div class="tile-photo photo-contain">
+                                        <img src="./img/photo01.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="tile-info-wrap">
+                                    <div class="tile-title">Тревога, как базовая мотивационная эмоция с точки зрения физиологии.</div>
+                                    <div class="tile-text-lines tile-many-lines">Данные исследований в области психофизилогии подтверждают тезис, о том, что тревога есть состояние поиска пути решения задачи перед которой оказывается человек, точнее тревога есть состояние в период пока источник тревоги не означен. Далее возникают более зрелые эмоции связанные с ситуацией когда объект тревоги определен — появляется возможность действовать. Зрелые эмоции (страх, стыд, гнев, ярость) запускают именно механизмы действия направленные на решение задачи</div>
+                                </div>
+                                <div class="tile-actions-wrap">
+                                    <ul class="list-marker">
+                                        <li>
+                                            <a href="" class="btn-action">
+                                                <div class="button-ico">
+                                                    <img src="./img/icons/eye.svg" alt="">
+                                                </div>
+                                                <div class="button-title">51369</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="btn-action">
+                                                <div class="button-ico">
+                                                    <img src="./img/icons/message.svg" alt="">
+                                                </div>
+                                                <div class="button-title">51369</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <div class="item-tile-main">
+                                <a href="" class="tile-link"></a>
+                                <div class="tile-photo-wrap">
+                                    <div class="tile-photo photo-contain">
+                                        <img src="./img/photo01.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="tile-info-wrap">
+                                    <div class="tile-title">Массовый психоз, как проявление шизофреногенной матери на уровне коллективного бессознательного</div>
+                                    <div class="tile-text-lines tile-many-lines">Данные исследований в области психофизилогии подтверждают тезис, о том, что тревога есть состояние поиска пути решения задачи перед которой оказывается человек, точнее тревога есть состояние в период пока источник тревоги не означен. Далее возникают более зрелые эмоции связанные с ситуацией когда объект тревоги определен — появляется возможность действовать. Зрелые эмоции (страх, стыд, гнев, ярость) запускают именно механизмы действия направленные на решение задачи</div>
+                                </div>
+                                <div class="tile-actions-wrap">
+                                    <ul class="list-marker">
+                                        <li>
+                                            <a href="" class="btn-action">
+                                                <div class="button-ico">
+                                                    <img src="./img/icons/eye.svg" alt="">
+                                                </div>
+                                                <div class="button-title">51369</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="btn-action">
+                                                <div class="button-ico">
+                                                    <img src="./img/icons/message.svg" alt="">
+                                                </div>
+                                                <div class="button-title">51369</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <div class="item-tile-main">
+                                <a href="" class="tile-link"></a>
+                                <div class="tile-photo-wrap">
+                                    <div class="tile-photo photo-contain">
+                                        <img src="./img/photo01.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="tile-info-wrap">
+                                    <div class="tile-title">Обыденность зла: коллективная совесть на службе у общества</div>
+                                    <div class="tile-text-lines tile-many-lines">Данные исследований в области психофизилогии подтверждают тезис, о том, что тревога есть состояние поиска пути решения задачи перед которой оказывается человек, точнее тревога есть состояние в период пока источник тревоги не означен. Далее возникают более зрелые эмоции связанные с ситуацией когда объект тревоги определен — появляется возможность действовать. Зрелые эмоции (страх, стыд, гнев, ярость) запускают именно механизмы действия направленные на решение задачи</div>
+                                </div>
+                                <div class="tile-actions-wrap">
+                                    <ul class="list-marker">
+                                        <li>
+                                            <a href="" class="btn-action">
+                                                <div class="button-ico">
+                                                    <img src="./img/icons/eye.svg" alt="">
+                                                </div>
+                                                <div class="button-title">51369</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="btn-action">
+                                                <div class="button-ico">
+                                                    <img src="./img/icons/message.svg" alt="">
+                                                </div>
+                                                <div class="button-title">51369</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <div class="item-tile-main">
+                                <a href="" class="tile-link"></a>
+                                <div class="tile-photo-wrap">
+                                    <div class="tile-photo photo-contain">
+                                        <img src="./img/photo01.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="tile-info-wrap">
+                                    <div class="tile-title">Тревога, как базовая мотивационная эмоция с точки зрения физиологии.</div>
+                                    <div class="tile-text-lines tile-many-lines">Данные исследований в области психофизилогии подтверждают тезис, о том, что тревога есть состояние поиска пути решения задачи перед которой оказывается человек, точнее тревога есть состояние в период пока источник тревоги не означен. Далее возникают более зрелые эмоции связанные с ситуацией когда объект тревоги определен — появляется возможность действовать. Зрелые эмоции (страх, стыд, гнев, ярость) запускают именно механизмы действия направленные на решение задачи</div>
+                                </div>
+                                <div class="tile-actions-wrap">
+                                    <ul class="list-marker">
+                                        <li>
+                                            <a href="" class="btn-action">
+                                                <div class="button-ico">
+                                                    <img src="./img/icons/eye.svg" alt="">
+                                                </div>
+                                                <div class="button-title">51369</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="btn-action">
+                                                <div class="button-ico">
+                                                    <img src="./img/icons/message.svg" alt="">
+                                                </div>
+                                                <div class="button-title">51369</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <div class="item-tile-main">
+                                <a href="" class="tile-link"></a>
+                                <div class="tile-photo-wrap">
+                                    <div class="tile-photo photo-contain">
+                                        <img src="./img/photo01.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="tile-info-wrap">
+                                    <div class="tile-title">Тревога, как базовая мотивационная эмоция с точки зрения физиологии.</div>
+                                    <div class="tile-text-lines tile-many-lines">Данные исследований в области психофизилогии подтверждают тезис, о том, что тревога есть состояние поиска пути решения задачи перед которой оказывается человек, точнее тревога есть состояние в период пока источник тревоги не означен. Далее возникают более зрелые эмоции связанные с ситуацией когда объект тревоги определен — появляется возможность действовать. Зрелые эмоции (страх, стыд, гнев, ярость) запускают именно механизмы действия направленные на решение задачи</div>
+                                </div>
+                                <div class="tile-actions-wrap">
+                                    <ul class="list-marker">
+                                        <li>
+                                            <a href="" class="btn-action">
+                                                <div class="button-ico">
+                                                    <img src="./img/icons/eye.svg" alt="">
+                                                </div>
+                                                <div class="button-title">51369</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="btn-action">
+                                                <div class="button-ico">
+                                                    <img src="./img/icons/message.svg" alt="">
+                                                </div>
+                                                <div class="button-title">51369</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <div class="item-tile-main">
+                                <a href="" class="tile-link"></a>
+                                <div class="tile-photo-wrap">
+                                    <div class="tile-photo photo-contain">
+                                        <img src="./img/photo01.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="tile-info-wrap">
+                                    <div class="tile-title">Тревога, как базовая мотивационная эмоция с точки зрения физиологии.</div>
+                                    <div class="tile-text-lines tile-many-lines">Данные исследований в области психофизилогии подтверждают тезис, о том, что тревога есть состояние поиска пути решения задачи перед которой оказывается человек, точнее тревога есть состояние в период пока источник тревоги не означен. Далее возникают более зрелые эмоции связанные с ситуацией когда объект тревоги определен — появляется возможность действовать. Зрелые эмоции (страх, стыд, гнев, ярость) запускают именно механизмы действия направленные на решение задачи</div>
+                                </div>
+                                <div class="tile-actions-wrap">
+                                    <ul class="list-marker">
+                                        <li>
+                                            <a href="" class="btn-action">
+                                                <div class="button-ico">
+                                                    <img src="./img/icons/eye.svg" alt="">
+                                                </div>
+                                                <div class="button-title">51369</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="btn-action">
+                                                <div class="button-ico">
+                                                    <img src="./img/icons/message.svg" alt="">
+                                                </div>
+                                                <div class="button-title">51369</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/sl-wrap-->
+                    </div>
+                </div>
+            </div>
+            <!--/tiles-slider-box-->
+
+            <!--about-box-->
+            <div class="about-box">
+                <div class="info-inner-wrap">
+                    <h2 class="h1-title">О нас</h2>
+                    <p>Разнообразный и богатый опыт говорит нам, что укрепление и развитие внутренней структуры напрямую зависит от экспериментов, поражающих по своей масштабности и грандиозности. Задача организации, в особенности же синтетическое тестирование, а также свежий взгляд на привычные вещи — безусловно открывает новые горизонты для вывода текущих активов. Разнообразный и богатый опыт говорит нам, что высокотехнологичная концепция общественного уклада, а также свежий взгляд на привычные вещи — безусловно открывает новые горизонты для позиций, занимаемых участниками в отношении поставленных задач! Прежде всего, новая модель организационной деятельности создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса вывода текущих активов. Сложно сказать, почему непосредственные участники технического прогресса представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и должны быть описаны максимально подробно. Высокий уровень вовлечения. Сложно сказать, почему непосредственные участники технического прогресса представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и должны быть описаны максимально подробно.</p>
+                </div>
+                <div class="items-inner-wrap">
+                    <h2 class="h1-title">Наши партнёры</h2>
+                    <div class="items-wrap">
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-partner">
+                                <div class="tile-photo photo-cover">
+                                    <img src="./img/prt01.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-partner">
+                                <div class="tile-photo photo-cover">
+                                    <img src="./img/prt02.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-partner">
+                                <div class="tile-photo photo-cover">
+                                    <img src="./img/prt03.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <a href="" class="item-tile-partner">
+                                <div class="tile-photo photo-cover">
+                                    <img src="./img/prt04.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <!--/item wrap-->
+                    </div>
+                </div>
+            </div>
+            <!--/about-box-->
+
         </div>
         <!-- /page -->
 
 
         <!-- footer -->
         <footer class="footer">
-            <div class="inner-wrap">
-                333333
+            <!--footer-main-panel-->
+            <div class="footer-main-panel cnt-section">
+                <div class="inner-wrap">
+                    <div class="logo-wrap">
+                        <a href="" class="logo">
+                            <div class="logo-image">
+                                <img src="./img/main/logo.svg" alt="">
+                            </div>
+                            <div class="logo-title">Hypnosis of clinical and experimental psychology</div>
+                        </a>
+                    </div>
+                    <div class="info-wrap">
+                        <p><b>Свидетельство о регистрации:</b> Серия Эл № ФС77-80823 от 09 апреля 2021 г.</p>
+                        <p><b>Главный редактор</b> Савченков Александр Витальевич <br> <a href="tel:89511150749" class="link-phone"><b>+7 951 115 07 49</b></a></p>
+                    </div>
+                    <div class="contacts-wrap">
+                        <div class="phone-wrap">
+                            <a href="tel:89191283768" class="link-phone"><b>+7 919 128 37 68</b></a>
+                        </div>
+                        <div class="email-wrap">
+                            <a href="mailto:magazine@psychd.ru" class="link-email"><b>magazine@psychd.ru</b></a>
+                        </div>
+                        <div class="address-wrap">454091, г. Челябинск, ул. Кирова, д. 94, этаж 4, помещение 8</div>
+                    </div>
+                </div>
             </div>
+            <!--/footer-main-panel-->
+            <!--footer-bottom-panel-->
+            <div class="footer-bottom-panel cnt-section">
+                <div class="inner-wrap">
+                    <p>© 2021 — 2024. Все права защищены.</p>
+                    <p>Ассоциация психоаналитиков и гипнологов «Психодинамическая школа клинического гипноза». </p>
+                </div>
+            </div>
+            <!--/footer-bottom-panel-->
         </footer>
         <!-- /footer -->
 
     </div>
     <!-- /wrap -->
 
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/jquery.fancybox.min.js"></script>
-    <script src="./js/slick.min.js"></script>
-    <script src="./js/jquery.maskedinput.min.js"></script>
-    <script src="./js/scripts.js"></script>
+
 
 </body>
 
