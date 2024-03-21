@@ -146,6 +146,30 @@ popupElements.forEach(element => {
 
 
 $(document).ready(function(){
+
+
+	//popups
+	let popupCurrent;
+	$('.js-popup-open').on('click', function () {
+		$('.popup-outer-box').removeClass('active');
+		$('body').addClass('popup-open');
+		popupCurrent = $(this).attr('data-popup');
+		$('.popup-outer-box[id="' + popupCurrent + '"]').addClass('active');
+		return false;
+	})
+	$('.js-popup-close').on('click', function () {
+		$('body').removeClass('popup-open');
+		$('.popup-outer-box').removeClass('active');
+		return false;
+	})
+	$('.popup-outer-box').on('click', function (event) {
+		if (!event.target.closest('.popup-box')) {
+			$('body').removeClass('popup-open');
+			$('body').removeClass('popup-open-scroll');
+			$('.popup-outer-box').removeClass('active');
+			return false;
+		}
+	})
 	
 	
 	//tiles-slider-box
